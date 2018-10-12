@@ -2,6 +2,7 @@
 A course project - using gradient boost to perform multi-class classification on diabetes
 
 ## Frameworks
+- Python 3
 - CatBoost
 - Numpy
 - Scikit-learn
