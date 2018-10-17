@@ -32,7 +32,7 @@ def select_all_records(table_name):
         # Change data labels from categorical to numerical
         # 0 = Not Diabetic, 1 = Pre-Diabetes, 2 = Diabetic
         label[label == "Not Diabetic"] = 0
-        label[label == "Pre-Diabetes"] = 1
+        label[label == "Pre-Diabetic"] = 1
         label[label == "Diabetic"] = 2
 
         label = label.astype('float64')
